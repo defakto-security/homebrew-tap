@@ -2,7 +2,7 @@
 cask "defakto-cli" do
   desc "Defakto CLI"
   homepage "https://defakto.security"
-  version "0.37.0"
+  version "0.38.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "defakto-cli" do
 
   on_macos do
     on_intel do
-      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.37.0/defakto-cli-v0.37.0-darwin-amd64.tar.gz"
-      sha256 "9866aeb99ad335901651d93159fe0fc2e7a939d149dc084b1ecdfdc7a63c64c1"
+      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.38.0/defakto-cli-v0.38.0-darwin-amd64.tar.gz"
+      sha256 "4c81f50982ce6c29c8bddb98940717807a3bb7fc97259ddd671ff51f81597900"
     end
     on_arm do
-      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.37.0/defakto-cli-v0.37.0-darwin-arm64.tar.gz"
-      sha256 "7ad6019b4536cae429a91d0a66815e9f966b4bb191b0e720d007fc4ad3cc3b16"
+      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.38.0/defakto-cli-v0.38.0-darwin-arm64.tar.gz"
+      sha256 "919ab2e60b7af0544c62143bda24890c4a28e4523ab13461a5d4d27fe38fc9f4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.37.0/defakto-cli-v0.37.0-linux-amd64.tar.gz"
-      sha256 "10aeefa2206f6ec204f031862c46878789212ed717f1b25478722baa44683f53"
+      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.38.0/defakto-cli-v0.38.0-linux-amd64.tar.gz"
+      sha256 "5d465291177a570f5ff07b2fcbfdcfdb0fe9915a4ccb31fb4a42a4dee81b894f"
     end
     on_arm do
-      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.37.0/defakto-cli-v0.37.0-linux-arm64.tar.gz"
-      sha256 "6ab3153994220201476c2fd8fa214eb92260a12d9c528e650031c1b6315458dc"
+      url "https://defakto-releases.s3.us-west-2.amazonaws.com/defakto-cli/v0.38.0/defakto-cli-v0.38.0-linux-arm64.tar.gz"
+      sha256 "ead4fcfb0040fc18193a848c8a77f64a406a6706dec29385fc05b1664a396b53"
     end
   end
 
